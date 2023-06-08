@@ -1,3 +1,6 @@
+
+name: Hello world action 
+
 on: 
   push:
 
