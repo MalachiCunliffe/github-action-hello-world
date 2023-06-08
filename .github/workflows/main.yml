@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: malachiCunliffe/github-action-hello-world@v1.6
+        uses: malachiCunliffe/github-action-hello-world@v2
         with:
           who-to-greet: ${{inputs.who-to-greet || 'World'}}
       # Use the output from the `hello` step
